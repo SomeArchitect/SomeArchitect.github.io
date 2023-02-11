@@ -51,11 +51,11 @@
 <body>
 	<a href="#" onclick="PrevFunction()"><</a>
 	<!-- <input type="number" id="number" name="number" min="1" max="1000" onkeypress="EnterFunction(event)"> -->
-    <input input pattern="[0-9]*" type="number" id="number" name="number" min="1" max="1000" onkeypress="EnterFunction(event)">
+    <input type="number" id="number" name="number" min="1" max="1000" onkeypress="EnterFunction(event)">
 	<a href="#" onclick="NextFunction()">></a>
 	<a href="#" onclick="RandFunction()">Random</a>
 	<br>
-	<img id="exercise" src="fork (1).png" alt="">
+	<img id="exercise" src="forks (1).png" alt="">
 	<br>
 	<a  href="#" onclick="AnswerFunction()">Show Answer</a>
 	<br>
@@ -239,6 +239,31 @@
         "discoveries (23).png",
         "discoveries (24).png",
         "discoveries (25).png",
+        "doublechecks (1).png",
+        "doublechecks (2).png",
+        "doublechecks (3).png",
+        "doublechecks (4).png",
+        "doublechecks (5).png",
+        "doublechecks (6).png",
+        "doublechecks (7).png",
+        "doublechecks (8).png",
+        "doublechecks (9).png",
+        "doublechecks (10).png",
+        "doublechecks (11).png",
+        "doublechecks (12).png",
+        "doublechecks (13).png",
+        "doublechecks (14).png",
+        "doublechecks (15).png",
+        "doublechecks (16).png",
+        "doublechecks (17).png",
+        "doublechecks (18).png",
+        "doublechecks (19).png",
+        "doublechecks (20).png",
+        "doublechecks (21).png",
+        "doublechecks (22).png",
+        "doublechecks (23).png",
+        "doublechecks (24).png",
+        "doublechecks (25).png",
 		]
 	var answers = [
         "forksanswers (1).png",
@@ -416,6 +441,31 @@
         "discoveriesanswers (23).png",
         "discoveriesanswers (24).png",
         "discoveriesanswers (25).png",
+        "doublechecksanswers (1).png",
+        "doublechecksanswers (2).png",
+        "doublechecksanswers (3).png",
+        "doublechecksanswers (4).png",
+        "doublechecksanswers (5).png",
+        "doublechecksanswers (6).png",
+        "doublechecksanswers (7).png",
+        "doublechecksanswers (8).png",
+        "doublechecksanswers (9).png",
+        "doublechecksanswers (10).png",
+        "doublechecksanswers (11).png",
+        "doublechecksanswers (12).png",
+        "doublechecksanswers (13).png",
+        "doublechecksanswers (14).png",
+        "doublechecksanswers (15).png",
+        "doublechecksanswers (16).png",
+        "doublechecksanswers (17).png",
+        "doublechecksanswers (18).png",
+        "doublechecksanswers (19).png",
+        "doublechecksanswers (20).png",
+        "doublechecksanswers (21).png",
+        "doublechecksanswers (22).png",
+        "doublechecksanswers (23).png",
+        "doublechecksanswers (24).png",
+        "doublechecksanswers (25).png",
 		]
 	document.getElementById("number").value = numero;
 	document.getElementById("number").max = boards.length;
@@ -462,6 +512,12 @@
 				document.getElementById("answer").src = "";
 				}
 			}
+        /*numero = document.getElementById("number").value;
+        if (numero > 0 && numero <= boards.length)
+            {
+            document.getElementById("exercise").src = boards[numero-1];
+            document.getElementById("answer").src = "";
+            }*/
 		}
 	document.body.onkeydown = function(e)
 		{
